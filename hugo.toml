@@ -1,0 +1,37 @@
+baseURL = 'http://localhost:1313/'
+locale = 'id-id'
+title = 'Komputermu.id'
+theme = 'PaperMod'
+
+[[menu.main]]
+name = "Beranda"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Tentang"
+url = "/tentang/"
+weight = 2
+
+[[menu.main]]
+name = "Layanan"
+url = "/layanan/"
+weight = 3
+
+[[menu.main]]
+name = "Kontak"
+url = "/kontak/"
+weight = 4
+
+[[menu.main]]
+name = "Portofolio"
+url = "/portofolio/"
+weight = 5
+
+[[menu.main]]
+name = "Artikel"
+url = "/posts/"
+weight = 6
+
+[params]
+mainSections = ["posts"]
